@@ -1,0 +1,113 @@
+body {
+    background-color: #011733;
+    margin: 0;
+}
+
+.image-background {
+    width: 730px;
+    height: 606px;
+}
+
+.square-container {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translate(0, -50%);
+    width: 550px;
+    height: 550px;
+    background-color: #011733;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Metal Mania';
+    src: local('Metal Mania Regular'), local('MetalMania-Regular'), url(''); 
+    font-style: normal;
+}
+
+.tecart-insider {
+    color: #ced3da;
+    font-family: Metal Mania;
+    font-size: 70px;
+    position: absolute;
+    top: 10%;
+    right: 112px;
+    transform: translate(0, -50%);
+    z-index: 1;
+}
+
+.description {
+    color: #ced3da;
+    font-family: 'OCR A', monospace;
+    font-size: 12px;
+    position: absolute;
+    top: 34%;
+    right: 58px;
+    transform: translate(0, -50%);
+    text-align: center;
+    line-height: 1.5;
+}
+.more-description {
+    color: #ced3da;
+    font-family: 'OCR A', monospace;
+    font-size: 12px;
+    margin-top: 10px;
+    position: absolute;
+    top: 40%;
+    left: 58%;
+    text-align: left;
+    line-height: 3;
+}
+.input-form {
+    color: #afcfda;
+    font-family: 'OCR A', monospace;
+    font-size: 12px;
+    position: absolute;
+    top: 67%;
+    right: 63px;
+    text-align: left;
+}
+
+.input-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-form input {
+    width: 440px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #afcfda;
+    border: 2px solid #afcfda;
+    border-radius: 10px;
+}
+.input-form button {
+    font-family: 'OCR A', monospace;
+    display: block;
+    width: 463px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #2777c2;
+    color: #ffffff;
+    border: 2px solid #2777c2;
+    border-radius: 10px;
+}
+.accept-image {
+    width: 20px;
+    height: auto;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.tecart-insider-subscribe {
+    color: #ced3da;
+    font-family: 'OCR A', monospace;
+    font-size: 30px;
+    position: absolute;
+    top: 45%;
+    right: 120px;
+    transform: translate(0, -50%);
+    z-index: 1;
+}
+
+
